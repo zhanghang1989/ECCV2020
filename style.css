@@ -25,6 +25,12 @@ h3 {
 }
 
 
+#first-div {
+  background-image: linear-gradient(to right, #229954, #3498DB);
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
 /* Hyperlinks */
 
 a:link {
@@ -168,14 +174,9 @@ table.psets {
 }
 
 .instructorphoto img {
+  height: 120px;
   width: 120px;
   border-radius: 120px;
-  margin-bottom: 10px;
-}
-
-.instructorphotosmall img {
-  width: 60px;
-  border-radius: 60px;
   margin-bottom: 10px;
 }
 
